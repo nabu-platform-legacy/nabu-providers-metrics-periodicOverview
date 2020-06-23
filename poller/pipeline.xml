@@ -1,0 +1,9 @@
+<structure name="pipeline">
+    <structure name="input"/>
+    <structure name="output"/>
+    <structure definition="be.nabu.eai.module.metrics.beans.MetricOverview" minOccurs="0" name="metrics"/>
+    <structure collectionName="metricStatistics" definition="nabu.providers.metrics.periodicOverview.model.metricStatistic" name="model"/>
+    <field minOccurs="0" name="group" type="java.lang.String"/>
+    <field minOccurs="0" name="server" type="java.lang.String"/>
+    <structure collectionName="metricStatistics" definition="nabu.providers.metrics.periodicOverview.model.metricStatistic" maxOccurs="unbounded" minOccurs="0" name="models"/>
+</structure>

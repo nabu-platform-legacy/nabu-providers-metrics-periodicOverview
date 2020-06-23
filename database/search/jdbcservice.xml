@@ -1,0 +1,7 @@
+<jdbcService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<outputDefinition>nabu.providers.metrics.periodicOverview.model.metricStatistic</outputDefinition>
+	<sql>select *
+from ~metric_statistics ms
+where (:serverName is null or ms.server_name = :serverName)
+	and (:serverGroup is null or ms.server_group = :serverGroup)</sql>
+</jdbcService>

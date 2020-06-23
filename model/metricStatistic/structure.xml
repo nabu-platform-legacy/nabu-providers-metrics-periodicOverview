@@ -1,0 +1,16 @@
+<structure collectionName="metricStatistics" name="metricStatistic">
+    <field name="id" pattern="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|[0-9a-fA-F]{32}" primaryKey="true" type="java.util.UUID"/>
+    <field name="serverName" type="java.lang.String"/>
+    <field name="serverGroup" type="java.lang.String"/>
+    <field name="updated" timezone="UTC" type="java.util.Date"/>
+    <field name="name" type="java.lang.String"/>
+    <field minOccurs="0" name="type" type="java.lang.String"/>
+    <field name="statistic" type="java.lang.String"/>
+    <field minOccurs="0" name="amountOfDataPoints" type="java.lang.Long"/>
+    <field minOccurs="0" name="cumulativeAverage" type="java.lang.Double"/>
+    <field minOccurs="0" name="exponentialAverage" type="java.lang.Double"/>
+    <field minOccurs="0" name="minimum" type="java.lang.Long"/>
+    <field minOccurs="0" name="maximum" type="java.lang.Long"/>
+    <field minOccurs="0" name="current" type="java.lang.Long"/>
+    <field minOccurs="0" name="cumulativeTotal" type="java.lang.Double"/>
+</structure>

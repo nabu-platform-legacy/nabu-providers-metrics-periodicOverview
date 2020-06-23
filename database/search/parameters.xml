@@ -1,0 +1,4 @@
+<structure name="parameter">
+    <field name="serverName" type="java.lang.String"/>
+    <field name="serverGroup" type="java.lang.String"/>
+</structure>
