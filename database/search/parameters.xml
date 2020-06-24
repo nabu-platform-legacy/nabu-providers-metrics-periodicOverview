@@ -1,4 +1,6 @@
 <structure name="parameter">
-    <field name="serverName" type="java.lang.String"/>
-    <field name="serverGroup" type="java.lang.String"/>
+    <field minOccurs="0" name="serverName" type="java.lang.String"/>
+    <field minOccurs="0" name="serverGroup" type="java.lang.String"/>
+    <field minOccurs="0" name="name" type="java.lang.String"/>
+    <field minOccurs="0" name="statistic" type="java.lang.String"/>
 </structure>

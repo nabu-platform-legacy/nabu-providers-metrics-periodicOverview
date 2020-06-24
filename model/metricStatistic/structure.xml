@@ -11,6 +11,5 @@
     <field minOccurs="0" name="exponentialAverage" type="java.lang.Double"/>
     <field minOccurs="0" name="minimum" type="java.lang.Long"/>
     <field minOccurs="0" name="maximum" type="java.lang.Long"/>
-    <field minOccurs="0" name="current" type="java.lang.Long"/>
     <field minOccurs="0" name="cumulativeTotal" type="java.lang.Double"/>
 </structure>

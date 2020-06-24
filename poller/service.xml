@@ -286,15 +286,6 @@
 						</steps>
 						<steps xsi:type="be.nabu.libs.services.vm.step.Link"
 								disabled="false"
-								id="5e88a3c0-1331-4ab0-8cb0-79e9abd19f0d"
-								mask="false"
-								optional="false"
-								fixedValue="false">
-							<from>statistic/cumulativeAverage</from>
-							<to>model/current</to>
-						</steps>
-						<steps xsi:type="be.nabu.libs.services.vm.step.Link"
-								disabled="false"
 								id="c6f5e7a7-8464-4e0d-a339-b8817e1b4fd8"
 								mask="false"
 								optional="false"
@@ -482,15 +473,6 @@
 						</steps>
 						<steps xsi:type="be.nabu.libs.services.vm.step.Link"
 								disabled="false"
-								id="4212f90a-edd0-45d9-87e0-067b9db63bbf"
-								mask="false"
-								optional="false"
-								fixedValue="false">
-							<from>gauge/value</from>
-							<to>model/current</to>
-						</steps>
-						<steps xsi:type="be.nabu.libs.services.vm.step.Link"
-								disabled="false"
 								id="af49c881-5cfd-4a36-b662-f589f25d6432"
 								mask="false"
 								optional="false"
@@ -614,7 +596,7 @@
 							mask="false"
 							optional="false"
 							fixedValue="true">
-						<from>1</from>
+						<from>30</from>
 						<to>amount</to>
 					</steps>
 					<steps xsi:type="be.nabu.libs.services.vm.step.Link"
@@ -623,7 +605,7 @@
 							mask="false"
 							optional="false"
 							fixedValue="true">
-						<from>MINUTES</from>
+						<from>SECONDS</from>
 						<to>unit</to>
 					</steps>
 				</steps>

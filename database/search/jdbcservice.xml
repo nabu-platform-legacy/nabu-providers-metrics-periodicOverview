@@ -3,5 +3,7 @@
 	<sql>select *
 from ~metric_statistics ms
 where (:serverName is null or ms.server_name = :serverName)
-	and (:serverGroup is null or ms.server_group = :serverGroup)</sql>
+	and (:serverGroup is null or ms.server_group = :serverGroup)
+	and (:name is null or ms.name = :name)
+	and (:statistic is null or ms.statistic = :statistic)</sql>
 </jdbcService>

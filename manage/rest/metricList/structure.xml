@@ -1,0 +1,4 @@
+<structure name="metricList">
+    <structure collectionName="metricStatistics" definition="nabu.providers.metrics.periodicOverview.model.metricStatistic" maxOccurs="unbounded" minOccurs="0" name="metrics"/>
+    <structure definition="nabu.services.jdbc.types.Page" minOccurs="0" name="page"/>
+</structure>
