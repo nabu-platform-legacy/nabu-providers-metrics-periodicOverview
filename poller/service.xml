@@ -109,6 +109,15 @@
 						<from>group</from>
 						<to>parameters/serverGroup</to>
 					</steps>
+					<steps xsi:type="be.nabu.libs.services.vm.step.Link"
+							disabled="false"
+							id="63d3bac5-69ca-4c52-a14c-17abeaf7f1d3"
+							mask="false"
+							optional="false"
+							fixedValue="false">
+						<from>transactionId</from>
+						<to>transaction</to>
+					</steps>
 				</steps>
 				<steps xsi:type="be.nabu.libs.services.vm.step.Link"
 						disabled="false"
